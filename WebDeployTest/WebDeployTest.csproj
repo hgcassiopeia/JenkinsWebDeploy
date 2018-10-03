@@ -43,6 +43,10 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <FilesToIncludeForPublish>OnlyFilesToRunTheApp</FilesToIncludeForPublish>
+    <DeployEncryptKey>Welcome1</DeployEncryptKey>
+    <IncludeIisSettings>false</IncludeIisSettings>
+    <ExcludeGeneratedDebugSymbol>true</ExcludeGeneratedDebugSymbol>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Microsoft.CSharp" />
